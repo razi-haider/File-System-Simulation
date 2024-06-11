@@ -1,0 +1,10 @@
+CD /home
+CD /home/user1
+CR /home/file1 1 128
+CR /home/user1/file2 1 512
+CP /home/file1 /home/user1/file3
+DL /home/file1
+CD /home/user2
+MV /home/user1/file2 /home/user2/file2
+LL
+DD /home/user2
